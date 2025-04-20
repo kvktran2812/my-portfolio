@@ -1,5 +1,4 @@
 import Image from "next/image"
-import Link from "next/link";
 import Experience from "./experience";
 
 export default function HomePage() {
@@ -33,7 +32,7 @@ export default function HomePage() {
 
 
             {/* GitHub and LinkedIn here */}
-            <div className="mt-4 flex gap-4">
+            <div className="mt-4 mb-8 flex gap-4">
                 <a href="https://github.com/kvktran2812">
                     <Image 
                         src="/github.svg" 
@@ -55,11 +54,8 @@ export default function HomePage() {
 
 
             {/* Brief Experience */}
-            <p className="mt-8 text-2xl font-bold text-gray-900 dark:text-white">
-                My Experience
-            </p>
             <Experience />
-            
+
         </div>
     )
 }
