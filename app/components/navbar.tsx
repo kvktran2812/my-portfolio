@@ -24,7 +24,7 @@ export default function Navbar() {
         <div>
             <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
                 <div className="flex flex-wrap justify-center items-center mx-auto max-w-screen-xl">
-                    <ul className="rounded-xl border-2 border-solid p-2 flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                    <ul className="rounded-xl border-2 border-solid p-2 w-2xl justify-center items-center flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                         {
                             nav_items.map((link, id) => (
                                 <li key={id}>
